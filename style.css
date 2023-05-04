@@ -1,69 +1,22 @@
-head {
-    display: none;
-}
-
-
-body {
+*,html, body {
     margin: 0;
-    background-color: var(--color-dark-matter-main);
-    font-family: var(--font-family-primary);
-    font-size: 16px;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
 }
 
-.codashop-container .codashop-header{
-    border-bottom: 1px solid var(--color-smoke-3);
-}
-
-.codashop-container .codashop-header{
-    flex-shrink: 0;
-}
-
-.codashop-container{
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    flex-shrink: 0;
-}
-.top-navbar{
-    box-shadow: 0 4px 22px var(--box-shadow-primary);
-    background-color: var(--color-dark-matter-2);
-}
-
-.top-navbar__container {
+.container {
     width: 100%;
-    position: relative;
-    max-width: 1280px;
-    padding: 0 10px;
-    margin: auto auto 0;
+    height: 100vh;
     display: flex;
-    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
     justify-content: space-between;
-    min-height: 56px;
-    overflow: visible;
-    transition: margin-bottom .3s;
+    font-size: 20px;
+    padding: 15px;
+    width: 800px;
+    height: 80px;
+    background-color: blue;
 }
-/*container*/
-.menu-icon-container-wrapper__icon{
-    position: relative;
-    cursor: pointer;
-    padding: 10px;
-    width: 40px;
-    border-radius: 25px;
-}
-
-.menu-icon-container-wrapper{
-    display: inline-block;
-    margin-right: 3px;
-}
-
-.menu-icon-container-wrapper .menu-icon__bar{
-    width: 90%;
-    height: 2px;
-    background-color: var(--color-smoke-main);
-    display: block;
-    margin: 4px 0;
-    border-radius: 4px;
-}
-
- 
