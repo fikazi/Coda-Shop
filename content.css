@@ -7,7 +7,7 @@ section#content {
     gap: 16px;
     justify-content: center;
 }
-section#coontetn.card {
+section#coontent.card {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@ section#coontetn.card {
 
 section#content img {
     width: 100%;
-    height: 100%;
+    height: 100px;
     object-position: top;
     object-fit: cover;
 }

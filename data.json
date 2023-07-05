@@ -1,21 +1,21 @@
 [{
     "id": 1,
-    "title": "Genshin Impact",
-    "description": "test",
-    "image": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/ID_Honkai-Star-Rail-Codacash-tile.jpg"
+    "title": "honkai Impact",
+    "description": "Game Rpg",
+    "Image": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/ID_Honkai-Star-Rail-Codacash-tile.jpg"
 },
 
 {
     "id": 2,
-    "title": "Genshin Impact",
-    "description": "test",
-    "image": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/ID_Tile-Valorant.jpg"
+    "title": "Genshin valorant",
+    "description": "Game Fps Shooter",
+    "Image": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/ID_Tile-Valorant.jpg"
 },
 
 {
     "id": 3,
-    "title": "Genshin Impact",
-    "description": "test",
-    "image": "png/hsr.jpg?size=176x176&set1"
+    "title": "honkai Star Rail",
+    "description": "Game mmorpg",
+    "Image": "png/hsr.jpg?size=176x176&set1"
 }
 ]
