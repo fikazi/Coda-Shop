@@ -1,35 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coda Shop</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="carousel.css">
 </head>
+
 <body>
 
     <div class="container">
         <nav class="wrapper">
             <div class="brand">
                 <div class="sidebar"><i class="fas fa-sharp fa-solid fa-bars"></i></div>
-                <div class="logo"><img href="" class="logo"src="/codashop-logo-new-3a.png"></div>
+                <div class="logo"><img href="" class="logo" src="/codashop-logo-new-3a.png"></div>
                 <div class="teks">Cara aman & mudah untuk membeli kredit game resmi</div>
             </div>
-                <ul>
-                <a href="" class="bell" style="list-style-type: none;"><i class="fas fa-light fa-bell fa-shake bell"></i></a>
-                <a href="" class="none">Daftar</a>
-                <a href="" class="active">Masuk</a>
+            <div class="brand2">
+                <ul class="">
+                    <a href="" class="bell" style="list-style-type: none;"><i
+                            class="fas fa-light fa-bell fa-shake bell"></i></a>
+                    <a href="" class="none">Daftar</a>
+                    <a href="" class="active" onclick="masuk()">Masuk</a>
                 </ul>
-            <form class="search">
-                <input type="text" placeholder=" " />
-                <button type="reset">
-            </form>
+            </div>
         </nav>
-        
+
     </div>
-    
+    <div id="wrapper">
+        <div class="slides">
+            <span id="slide-1"></span>
+            <span id="slide-2"></span>
+            <span id="slide-3"></span>
+            <div class="images">
+                <img src="img/codm.jpg">
+                <img src="img/mlbb.jpg">
+                <img src="img/xl.jpeg">
+            </div>
+        </div>
+        <div class="navigation">
+            <a href="#slide-1">1</a>
+            <a href="#slide-2">2</a>
+            <a href="#slide-3">3</a>
+        </div>
+    </div>
+    <div class="container py5">
+        <div class="text-center">
+            <h1 class="judul">PROMO MENARIK BULAN INI</h1>
+        </div>
+    </div>
+
+    <section id="conetent"></section>
+
+
+
+
+    <br><br><br><br>
+    <script src="data.json"></script>
+    <script src="content.js"></script>
+    <script src="gallery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
